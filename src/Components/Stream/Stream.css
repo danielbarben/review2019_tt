@@ -1,0 +1,32 @@
+ul.events {
+  padding-left: 16px;
+  margin-top: -1px;
+  height:auto;
+}
+ul.events li {
+  position:relative;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  list-style:none;
+}
+ul.events li:after {
+  content: url('bullet.png');
+  left:0px;
+  top:3px;
+  position:absolute;
+}
+ul.events li:before {
+  content: '';
+  display:inline-block;
+  position:absolute;
+  left:8px;
+  border-left:2px solid #808080;
+  height:100%;
+  width:16px;
+}
+ul.events li:first-child:before {
+  top: 6px;
+}
+ul.events li:last-child:before {
+  height:6px;
+}

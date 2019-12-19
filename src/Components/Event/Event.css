@@ -1,0 +1,51 @@
+.li {
+  width:100%;
+}
+.date {
+  font-family: Roboto, sans-serif;
+  font-size:5vw;
+  cursor:pointer;
+  color:#888888;
+}
+
+.headline {
+ font-size: 5vw;
+ font-weight:700;
+ margin: 3vw 0;
+ max-width:80%;
+ color:black;
+}
+
+.text {
+  font-size:4.4vw;
+  line-height:1.4em;
+  overflow:hidden;
+  margin-right:20px;
+}
+
+.hidden {
+  height:0;
+  display:none;
+}
+.visible {
+  display:block
+}
+
+.image {
+  width:100%;
+  margin:10px 0
+}
+
+@media only screen and (min-width: 600px) {
+  .date {
+    font-size: 22px;
+  }
+  .headline {
+    font-size:22px;
+    margin: 16px 0;
+  }
+  .text {
+    font-size: 18px;
+  }
+
+}

@@ -1,0 +1,47 @@
+.App {
+}
+html {
+  font-family: Roboto, sans-serif;
+  background:#009fe3;
+}
+.blue {
+  background: #009fe3;
+}
+.red {
+  background: #80000C;
+}
+.wrapper {
+  position:relative;
+  max-width:600px;
+  margin: auto;
+  top:100px;
+  background:white;
+}
+
+.wrapper h1 {
+  font-weight:700;
+  font-size:18vw;
+  color:#888888;
+  text-align:center;
+  margin: 0 10px 50px 10px;
+}
+.lead {
+  font-size:6vw;
+  line-height:1.2em;
+  color:#888888;
+  text-align: center;
+  margin: 0 30px 30px 30px;
+}
+
+.headerImage {
+  width:100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper h1 {
+    font-size: 72px;
+  }
+  .lead {
+    font-size:32px;
+  }
+}

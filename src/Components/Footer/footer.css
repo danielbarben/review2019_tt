@@ -1,0 +1,119 @@
+.black {
+  background:#000000;
+}
+
+
+.row {
+  margin-left:0;
+}
+
+.center {
+  text-align:center
+}
+footer a.copyright-notice,
+.user-feedback-container a {
+  color: #333 !important;
+  text-decoration: none;
+}
+
+footer .ui.message,
+footer .ui.message.ui.list .list > .item .header,
+.ui.list > .item .header {
+  background: transparent;
+  color: #333;
+  font-size: 0.975em;
+}
+
+/* Footer PV Changes */
+@media screen and (min-width: 599px) {
+  footer .ui.message {
+    padding-top: 0.619em;
+    padding-left: 0.619em;
+    padding-right: 0;
+    padding-bottom: 0.619em;
+  }
+}
+@media screen and (max-width: 599px) {
+  footer .ui.labeled.icon.buttons .button {
+    padding-right: 0.8em !important;
+  }
+}
+
+.impressum {
+  position: relative;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: inherit;
+align-items: stretch;
+width: 100% !important;
+padding: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+/* Footer PV Changes END*/
+
+footer .icon.message {
+  background: transparent;
+}
+
+.ui.buttons:not(.basic):not(.inverted) > .button,
+.ui.buttons > .ui.button:not(.basic):not(.inverted) {
+  text-align: left;
+}
+
+footer .column table tr td:first-child {
+  font-family: var(--chart-font-stack);
+  font-weight: 700;
+  font-size: 0.92em;
+  line-height: 1.4em;
+}
+
+footer .teaser-section {
+  text-align: center;
+}
+
+footer .portfolio-teaser {
+  width: 50%;
+}
+
+footer .teaser-section a {
+  width: 100%;
+}
+
+footer .sharing .ui.button {
+  background: transparent !important;
+}
+
+footer .sharing .ui.button:hover {
+  background: #fff;
+}
+
+footer .ui.labeled.icon.button,
+footer .ui.labeled.icon.buttons .button {
+  padding-left: 2.7em !important;
+}
+
+footer .ui.labeled.icon.button > .icon,
+footer .ui.labeled.icon.buttons > .button > .icon {
+  background: transparent;
+}
+
+footer .ui.buttons:not(.basic):not(.inverted) > .button,
+footer .ui.buttons > .ui.button:not(.basic):not(.inverted) {
+  background: transparent !important;
+}
+
+footer .copyright {
+  margin-top: 0.5em !important;
+}
+
+#impressum {
+  margin-left:0;
+  padding-left:15px;
+  margin-right:0;
+  padding-right:15px;
+}
