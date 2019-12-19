@@ -47,7 +47,7 @@ class Footer extends Component {
                     />
                     <div className='ui fluid share aligned container'>
                       <ShareButtons
-                        articleId='16267582'
+                        articleId='30388323'
                         displayType={displayTypes.VERTICAL_BUTTONS}
                       />
                     </div>

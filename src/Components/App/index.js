@@ -13,7 +13,7 @@ import Footer from '../Footer';
 function App() {
   return (
     <div className="App blue">
-      <Masthead articleId='16267582'/>
+      <Masthead articleId='30388323'/>
       <div className="wrapper">
         <img className = "headerImage" src={Thun} alt="Thun"></img>
         <h1>Das war<br/>2019</h1>
