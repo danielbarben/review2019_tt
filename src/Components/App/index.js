@@ -17,7 +17,7 @@ function App() {
       <div className="wrapper">
         <img className = "headerImage" src={Thun} alt="Thun"></img>
         <h1>Das war<br/>2019</h1>
-        <div className="lead">Der Jahresrückblick für die Region Thun.</div>
+        <div className="lead">Der Jahresrückblick für die Region Thun</div>
         <Stream />
         <Footer />
       </div>

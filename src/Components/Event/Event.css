@@ -6,10 +6,12 @@
   font-size:5vw;
   cursor:pointer;
   color:#888888;
+  margin-bottom:10px;
 }
 
 .headline {
  font-size: 5vw;
+ line-height:1.4;
  font-weight:700;
  margin: 3vw 0;
  max-width:80%;
