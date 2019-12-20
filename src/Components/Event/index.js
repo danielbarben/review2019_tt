@@ -19,8 +19,7 @@ open = () => {
   render() {
     return (
     <li>
-      <div className = "date" onClick = {() => this.open()}>{this.props.date} {this.state.visibility ?  <FaCaretUp /> : <FaCaretDown />}</div>
-      <h3 className = "headline">{this.props.headline}</h3>
+      <div className = "date" onClick = {() => this.open()}>{this.props.date} {this.state.visibility ?  <FaCaretUp /> : <FaCaretDown />}<h3 className = "headline">{this.props.headline}</h3></div>
       <p className = {this.state.visibility ? "text visible" : "text hidden"}>{this.props.text}<br/>
       {this.props.image !== "" ? <img src={gallery[this.props.image]} alt={this.props.headline} className="image"/> : ""}
       </p>
