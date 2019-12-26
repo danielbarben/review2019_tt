@@ -20,7 +20,7 @@ open = () => {
     return (
     <li>
       <div className = "date" onClick = {() => this.open()}>{this.props.date} {this.state.visibility ?  <FaCaretUp /> : <FaCaretDown />}<h3 className = "headline">{this.props.headline}</h3></div>
-      <p className = {this.state.visibility ? "text visible" : "text hidden"}>{this.props.image !== "" ? <img src={gallery[this.props.image]} alt={this.props.headline} className="image"/> : ""}<br/>{this.props.text}
+      <p className = {this.state.visibility ? "text visible" : "text hidden"}>{this.props.image !== "" ? <img src={gallery[this.props.image]} alt={this.props.headline} className="image"/> : ""}{this.props.text}
       </p>
     </li>
   )}
